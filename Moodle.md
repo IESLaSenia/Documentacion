@@ -14,3 +14,11 @@ Descargamos la última versión (en este momento la 3.3)
 
 `axel https://download.moodle.org/download.php/direct/stable33/moodle-3.3.tgz`
 
+Nos vamos a la carpeta /srv/ y descomprimimos el tgz en moodle-3-3, y creamos un enlace a moodle. 
+
+ `$ cd /srv`
+ `$ mv moodle moodle-3-3`
+ `$ ln -s moodle-3-3 moodle`
+ 
+Creamos un site en `/etc/apache/sites-avaliable/` por ejemplo `/etc/apache/sites-avaliable/moodle.conf`
+
