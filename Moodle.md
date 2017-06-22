@@ -6,7 +6,11 @@ Actualizamos el equipo, se trata de una Xenial, así que vemos cual es la versi�
  
 Vemos que se trata de una versión 3.0.3 y para poder estar un poquito más actualizados, vamos a intentar descargar de la página oficial del proyecto la versión 3.3 de Moodle.
 
+Al hacer esto, debemos tener en cuenta que actualizaremos de manera "Manual" con sus *pros* y sus *contras*.
+#TODO 
+
 Descargamos la última versión (en este momento la 3.3)
+
 
 `axel https://download.moodle.org/download.php/direct/stable33/moodle-3.3.tgz`
 
